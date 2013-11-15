@@ -5,4 +5,4 @@ node_js:
 install:
   - npm install
 
-script: node static/node_modules/intern/runner.js config=static/mathDrawer/tests/intern
+script: node node_modules/intern/runner.js config=static/mathDrawer/tests/intern
