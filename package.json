@@ -1,0 +1,11 @@
+{
+	"name": "mathDrawer",
+	"description": "mathDrawer is a tool that draw geometric shapes",
+	"version": "0.0.1",
+	"author": "Zhengwei Jin <zhengwei.jin@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zizibujuan/mathDrawer.git"
+	}
+
+}

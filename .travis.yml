@@ -2,5 +2,7 @@ language: node_js
 node_js:
   - "0.11"
   - "0.10"
+install:
+  - npm install
 
 script: node static/node_modules/intern/runner.js config=static/mathDrawer/tests/intern
