@@ -15,4 +15,5 @@ install:
   - ls
   - cd ..
   - ls
+  - cd static
 script: node node_modules/intern/runner.js config=mathDrawer/tests/intern
