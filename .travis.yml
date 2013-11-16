@@ -9,7 +9,6 @@ install:
   - ls
   - cd static
   - ls
-  - npm install
   - ls
   - cd ..
   - ls
