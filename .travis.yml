@@ -7,10 +7,10 @@ env:
     - SAUCE_ACCESS_KEY: ce82cb32-53d1-4beb-a908-24fc80298021
 install:
   - ls
-  - cd static
+  - npm install static
   - ls
-  - npm install
+  - cd static
   - ls
   - cd ..
   - ls
-script: node node_modules/intern/runner.js config=static/mathDrawer/tests/intern
+script: node node_modules/intern/runner.js config=mathDrawer/tests/intern
