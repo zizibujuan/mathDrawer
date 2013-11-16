@@ -7,9 +7,11 @@ env:
     - SAUCE_ACCESS_KEY: ce82cb32-53d1-4beb-a908-24fc80298021
 install:
   - ls
-  - npm install static
+  - npm install
   - ls
   - cd static
+  - ls
+  - ln -s ../node_modules node_modules
   - ls
   - cd ..
   - ls
