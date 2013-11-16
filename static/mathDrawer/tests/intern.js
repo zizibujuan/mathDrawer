@@ -22,13 +22,13 @@ define({
 	// OnDemand. Options that will be permutated are browserName, version, platform, and platformVersion; any other
 	// capabilities options specified for an environment will be copied as-is
 	environments: [
-	    { browserName: 'chrome', version: '', platform: [ 'Linux', 'OS X 10.6', 'Windows 7' ] },
-	    { browserName: 'firefox', version: '24', platform: 'Linux' },
-	    { browserName: 'firefox', version: '25', platform: [ 'OS X 10.6', 'Windows 7' ] },
-	    { browserName: 'safari', version: '6', platform: 'OS X 10.8' },
-	    { browserName: 'internet explorer', version: '9', platform: 'Windows 7' },
-	    { browserName: 'internet explorer', version: '10', platform: 'Windows 8' },
-		{ browserName: 'internet explorer', version: '11', platform: 'Windows 8.1' }
+		{ browserName: 'internet explorer', version: '11', platform: 'Windows 8.1' },
+		{ browserName: 'internet explorer', version: '10', platform: 'Windows 8' },
+		{ browserName: 'internet explorer', version: '9', platform: 'Windows 7' },
+		{ browserName: 'firefox', version: '25', platform: [ 'OS X 10.6', 'Windows 7' ] },
+		{ browserName: 'firefox', version: '24', platform: 'Linux' },
+		{ browserName: 'chrome', version: '', platform: [ 'Linux', 'OS X 10.6', 'Windows 7' ] },
+		{ browserName: 'safari', version: '6', platform: 'OS X 10.8' }
 	],
 
 	// Maximum number of simultaneous integration tests that should be executed on the remote WebDriver service
@@ -65,7 +65,7 @@ define({
 	},
 
 	// Non-functional test suite(s) to run in each browser
-	suites: [ "mathDrawer/tests/all"/* 'myPackage/tests/foo', 'myPackage/tests/bar' */ ],
+	suites: [ /*"mathDrawer/tests/all" 'myPackage/tests/foo', 'myPackage/tests/bar' */ ],
 
 	// Functional test suite(s) to run in each browser once non-functional tests are completed
 	functionalSuites: [ /* 'myPackage/tests/functional' */ ],
