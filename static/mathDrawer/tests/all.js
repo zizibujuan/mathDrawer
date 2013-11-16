@@ -1,1 +1,3 @@
-define(["./Demo"], function(){});
+define([
+        "./Demo"
+], function(){});
