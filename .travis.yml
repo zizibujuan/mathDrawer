@@ -4,5 +4,8 @@ node_js:
   - "0.10"
 install:
   - npm install
-
+env:
+  global:
+    - SAUCE_USERNAME: jinzw
+    - SAUCE_ACCESS_KEY: ce82cb32-53d1-4beb-a908-24fc80298021
 script: node node_modules/intern/runner.js config=static/mathDrawer/tests/intern
