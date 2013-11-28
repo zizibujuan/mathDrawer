@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>画图工具演示</title>
+<link type="text/css" rel="stylesheet" href="/dojo/resources/dojo.css" />
+<link type="text/css" rel="stylesheet" href="/dijit/themes/claro/claro.css" />
+<script type="text/javascript" src="/dojo/dojo.js" data-dojo-config="async: true, parseOnLoad: true"></script>
+<script type="text/javascript">
+require(["mathDrawer/Drawer", "dojo/domReady!"], function(Drawer){
+	var drawer = new Drawer({}, "drawer");
+	drawer.startup();
+});
+</script>
+</head>
+<body>
+
+	<div id="drawer" style="margin-top:30px; margin-left:50px; height:500px; width: 500px; border: solid 1px black"></div>
+</body>
+</html>
