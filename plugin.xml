@@ -7,14 +7,14 @@
             id="com.zizibujuan.drip.mathDrawer.httpcontext">
 	         <resource-mapping
 	               bundle="com.zizibujuan.drip.mathDrawer"
-	               path="/static">
+	               path="/static/mathDrawer">
 	         </resource-mapping>
          </httpcontext>
     </extension>
 	<extension
          point="org.eclipse.equinox.http.registry.resources">
       <resource
-            alias="/"
+            alias="/mathDrawer"
             httpcontextId="com.zizibujuan.drip.mathDrawer.httpcontext">
       </resource>
      </extension>
